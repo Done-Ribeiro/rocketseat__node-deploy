@@ -1,4 +1,6 @@
-## Passos:
+# Guia de passos do projeto 🚀
+
+## Aplicação:
 
 ```
 1. npm init -y
@@ -52,3 +54,28 @@
 18. No .gitignore adicionar a pasta dist
 19. Criar repositório no Git
 ```
+
+## Build da Aplicação - Render
+
+- Link do site: [https://dashboard.render.com](https://dashboard.render.com)
+
+### 1. Crie um novo Banco de Dados Postgres
+
+<img src="./docs/img/bd_1.png" />
+
+Copie a chave Interna, é com ela que faremos a conexão
+`DATABASE_URL` no Web Service
+
+<img src="./docs/img/bd_2.png" />
+
+### 2. Crie um novo Web Service
+
+<img src="./docs/img/ws_1.png" />
+
+...e cola a URL interna do banco de dados que copiamos da outra aplicação
+<img src="./docs/img/ws_2.png" />
+
+Clique no botão: Create Web Service
+Nesse momento ele vai começar a fazer deploy da nossa aplicação
+
+<img src="./docs/img/ws_3.png" />
